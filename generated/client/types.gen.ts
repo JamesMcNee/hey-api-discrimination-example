@@ -5,12 +5,12 @@ export type ClientOptions = {
 };
 
 export type TypesFoo = {
-    type?: 'foo';
+    type: 'foo';
     fooProp?: string;
 };
 
 export type TypesBar = {
-    type?: 'bar';
+    type: 'bar';
     barProp?: string;
 };
 

@@ -34,7 +34,8 @@ createClient({
                         "fooProp": {
                             "type": "string"
                         }
-                    }
+                    },
+                    "required": ['type']
                 },
                 "_types.Bar": {
                     "type": "object",
@@ -46,7 +47,8 @@ createClient({
                         "barProp": {
                             "type": "string"
                         }
-                    }
+                    },
+                    "required": ['type']
                 },
                 "_types.FooBar": {
                     "discriminator": {
